@@ -14,7 +14,6 @@ const client = new ApolloClient({
                         isLiked: !isLiked
                     }
                 })
-
             }
         }
     }

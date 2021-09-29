@@ -6,7 +6,7 @@ import styled from 'styled-components';
 
 const GET_MOVIES = gql`
     {
-        movies {
+        movies(limit: 20, rating: 8, sort: "year", genre: "Sci-Fi") {
             id
             medium_cover_image
             isLiked @client 
@@ -64,7 +64,7 @@ const Home = () => {
     return (
         <Container>
             <Header>
-                <Title>Apollo 2020</Title>
+                <Title>Apollo Movies</Title>
                 <Subtitle>I love GraphQL</Subtitle>
             </Header>
             {loading && <Loading>Loading...</Loading>}
