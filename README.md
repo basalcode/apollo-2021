@@ -33,4 +33,4 @@ localhost:3000으로 실행합니다.<br />
 다음과 같은 화면이 나오면 성공!<br />
 <img src="./executionResult.png" alt="실행 결과" /><br />
 
-> 참조 링크: https://nomadcoders.co/react-graphql-for-beginners/lobby<br />
+> 참조 링크: https://nomadcoders.co/react-graphql-for-beginners<br />
